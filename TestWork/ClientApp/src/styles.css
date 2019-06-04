@@ -1,0 +1,154 @@
+a {
+ text-decoration: none;
+ color:black;
+}
+
+p {
+ margin:0;
+}
+
+input[type="text"] {
+ outline: 0;
+ border-radius:3px;
+ border:1px solid gray;
+ font-size:18px;
+ padding:5px 8px;
+ width:400px;
+ position:fixed;
+ right:calc(50% - 210px);
+ top:10px;
+ z-index:1000;
+}
+
+.centered {
+ margin-top:50px;
+ position:relative;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.row{
+ flex-direction:row;
+}
+
+.column{
+ flex-direction: column;
+}
+
+.catalogItem {
+ margin:15px;
+ width:500px;
+ position:relative;
+ box-shadow:0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+.catalogSearch {
+ display:block;
+ height:500px;
+}
+
+.catalogImage{
+ height:300px;
+ position:relative;
+}
+
+.image {
+ width:100%;
+ height:100%;
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size:cover;
+}
+
+.catalogTitle {
+ position:absolute;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ bottom:0;
+ right:0;
+ left:0;
+ height:120px;
+ text-align: center;
+ background-color:rgba(0,0,0,0.4);
+ font-size:22px;
+ color:white;
+ font-weight: 300;
+}
+
+.catalogTitle>span {
+ margin:0;
+}
+
+.catalogPeriod {
+position:relative;
+top:-20px;
+font-size:20px;
+text-align:center;
+}
+
+.catalogPeriod>span {
+ background:#edf2b8;
+ padding:4px 30px;
+ word-wrap: none;
+ border: #fff 2px solid;
+ border-radius:20px;
+ box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.3)
+}
+
+.catalogContent {
+ padding:10px;
+ font-size:18px;
+}
+
+.catalogPrice{
+ text-align: right;
+ padding:18px 24px;
+ position: absolute;
+ bottom:0;
+ right:0;
+}
+
+.catalogPrice > span {
+ color:#d7504c;
+ border-bottom:1px #d7504c dotted;
+}
+/* tour detail */
+.tourDetail {
+ width:700px;
+ margin-left: auto;
+ margin-right:auto;
+}
+
+.tourDetail>h3 {
+ align-self: flex-start;
+ margin:3px;
+}
+
+.tourDetail>ul {
+ margin:3px;
+ align-self:flex-start;
+}
+
+.tourDetail>ul>li {
+ font-size: 18px;
+
+}
+
+.tourTitle {
+ font-size: 25px;
+ padding:10px 0;
+}
+
+.tourDescription {
+ text-align:justify;
+ font-size:18px;
+ padding:10px 0;
+}
+
+.back {
+ font-size:18px;
+ align-self:flex-start;
+ color:rgb(255, 119, 142);
+}
